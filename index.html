@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Google Sign Up Form</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="form">
+        <form>
+          <h1>Create Your Google Account</h1>
+          <div class="form-control">
+            <input name="first-name" type="text" placeholder="First name" />
+            <input name="last-name" type="text" placeholder="Last name" />
+          </div>
+          <div class="form-control">
+            <input name="email" type="email" placeholder="Username" />
+          </div>
+
+          <small>You can use letters, numbers and periods</small>
+
+          <div class="form-control">
+            <input name="password" type="password" placeholder="Password" />
+            <input
+              name="confirm-password"
+              type="password"
+              placeholder="Confirm"
+            />
+          </div>
+          <small>
+            Use 8 or more characters with a mix of letters, numbers and symbols
+          </small>
+          <div class="show-password">
+            <input
+              name="show-password"
+              id="show-password"
+              type="checkbox"
+            />
+            <label for="show-password">Show Password</label>
+          </div>
+
+          <div class="buttons">
+            <a href="#">Sign in instead</a>
+            <button type="submit">Sign Up</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="image">
+        <img src="google-account.svg" alt="Google" />
+        <p>One Account. All of google working for you.</p>
+      </div>
+    </section>
+  </body>
+</html>
